@@ -1,0 +1,286 @@
+body {
+	min-width: 1600px;
+	background-color: #EEEEEE;
+}
+.wrap {
+	width: 100%;
+    min-width: 1200px;
+    margin: 0 auto;
+}
+nav {
+	min-height: 100px;
+	border-bottom: 3px solid;
+	border-color: #3A3E49;
+}
+.liquidgem { /*adding the position rule as absolute enables me to adjust
+	the margins top and bottom margins relative to the left image.*/
+	font-family: 'Grand Hotel', cursive;
+	font-size: 2.5em;
+	color: #3A3E49;
+	margin-top: 20px;
+	margin-left: 10px;
+	display: inline;
+	position: absolute;
+}
+.gemstone {
+	height: 30px;
+	width: 30px;
+	margin-top: 30px;
+	margin-left: 40px;
+}
+.navlist {
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+	font-size: 1em;
+	float: right;
+	vertical-align: top;
+	margin-top: 40px
+}
+.navlist li {
+	display: inline;
+	margin-top: 30px;
+	margin-right: 50px;
+	color: #3A3E49;
+}
+.greeting {
+	font-family: 'Poppins', sans-serif;
+	text-align: center;
+	position: relative;
+}
+.greetingtext {
+	font-size: 2em;
+}
+.greetingsub {
+	font-size: 1.25em;
+	margin-top: -20px;
+}
+.greetingtext em {
+	font-style: normal;
+	color: #BF5959;
+}
+.sunset {
+	width: 97%;
+	border-radius: 15px;
+}
+.about {
+	margin-top: 50px;
+	text-decoration: none;
+	width: 100%;
+}
+.about ul {
+	text-align: center;
+	width: 100%;
+	display: inline-block;
+}
+.about h1 {
+	font-family: 'Grand Hotel', cursive;
+	color: #BF5959;
+	font-size: 2em;
+	text-align: center;
+	margin-top: 0px;
+}
+.about p {
+	font-family: Arial, sans-serif;
+	font-size: 1.55em;
+}
+.about li {
+	display: inline-block;
+	width: 700px;
+	text-align: left;
+}
+.me {
+	float: left;
+	margin-left: 50px;
+}
+.my {
+	float: right;
+	margin-right: 100px;
+}
+.photobuttons {
+	text-decoration: none;
+	text-align: center;
+	width: 100%;
+	margin: 0 auto;
+}
+.photobuttons li {
+	background-color: white;
+	display: inline-block;
+	width: 250px;
+	height: 300px;
+	border: 2px solid;
+	border-color: #AAA7A7;	
+	border-radius: 15px;
+	margin-right: 20px;
+	border-right: 4px;
+}
+.photobuttons h2 {
+	font-family: Arial, sans-serif;
+	padding-left: 10px;
+}
+.photobuttons p {
+	font-family: 'Grand Hotel', cursive;
+	font-size: 1.25em;
+	color: #BF5959;
+	padding-left: 10px;
+	margin-top: -20px;
+}
+.photobuttons img {
+	width: 250px;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+}
+.morephotobuttons {
+	text-decoration: none;
+	text-align: center;
+	width: 100%;
+
+}
+.morephotobuttons li {
+	background-color: white;
+	display: inline-block;
+	width: 250px;
+	height: 300px;
+	border: 2px solid;
+	border-color: #AAA7A7;	
+	border-radius: 15px;
+	margin-right: 20px;
+	border-right: 4px;
+}
+.morephotobuttons h2 {
+	font-family: Arial, sans-serif;
+	padding-left: 10px;
+}
+.morephotobuttons p {
+	font-family: 'Grand Hotel', cursive;
+	font-size: 1.25em;
+	color: #BF5959;
+	padding-left: 10px;
+	margin-top: -20px;
+}
+.morephotobuttons img {
+	width: 250px;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+}
+.closing {
+	font-family: 'Grand Hotel', cursive;
+	color: #BF5959;
+	font-size: 1.5em;
+	text-align: center;
+}
+.bottom {
+	height: 600px;
+	background-color: #3A3E49;
+}
+.bottom h2 {
+	font-family: 'Grand Hotel', cursive;
+	font-size: 2em;
+	color: #BF5959;
+}
+.contact {
+	width: 600px;
+	margin-left: 80px;
+	position: absolute;
+	margin-top: 40px;
+}
+.name {
+	margin-bottom: 20px;
+	width: 600px;
+	padding: 16px 20px 16px;
+	background-color: #e1e1e1; 
+	border: none;
+}
+.email {
+	margin-bottom: 20px;
+	width: 600px;	
+	padding: 16px 20px 16px;
+	background-color: #e1e1e1; 
+	border: none;
+}
+.message {
+	width: 600px;
+	padding: 16px 20px 200px;
+	background-color: #e1e1e1; 
+	border: none;
+}
+.mediabuttons {/*This is the styling that each of four social media buttons will have in common.*/
+	margin: 40px 20px;
+  	text-align: center;
+  	margin-top: 300px;
+  	float: right;
+  	width: 550px;
+}
+.facebook i {
+	margin-top: 12px;
+}
+.facebook:hover {
+      background: #e88845;
+}
+.facebook {
+	display: inline-block;
+/*Including in a CSS button rule set a width: 50px and height: 50px
+declaration with a border-radius: 25 declaration gives you a round button.*/ 	
+	width: 50px;
+	height: 50px;
+	background-color: #BF5959;
+	border-radius: 25px;
+	text-align: center;
+	color: white;
+	font-size: 1.5em;
+	text-align: center;
+	margin-right: 15px;
+}
+.twitter i {
+	margin-top: 12px;
+}
+.twitter:hover {
+	background: #e88845;
+}
+.twitter {
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	background-color: #BF5959;
+	border-radius: 25px;
+	text-align: center;
+	color: white;
+	font-size: 1.5em;
+	text-align: center;
+	margin-right: 15px;
+}
+.google i {
+	margin-top: 12px;
+}
+.google:hover {
+	background: #e88845;
+}
+.google {
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	background-color: #BF5959;
+	border-radius: 25px;
+	text-align: center;
+	color: white;
+	font-size: 1.5em;
+	text-align: center;
+	margin-right: 15px;
+}
+.pinterest i {
+	margin-top: 12px;
+}
+.pinterest:hover {
+	background: #e88845;
+}
+.pinterest {
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	background-color: #BF5959;
+	border-radius: 25px;
+	text-align: center;
+	color: white;
+	font-size: 1.5em;
+	text-align: center;
+	margin-right: 15px;	
+}
